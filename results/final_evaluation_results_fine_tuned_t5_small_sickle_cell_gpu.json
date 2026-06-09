@@ -1,0 +1,24 @@
+{
+    "model_path": "D:\\VScodefiles\\MedReportGen-AI\\model\\fine_tuned_t5_small_sickle_cell_gpu",
+    "evaluation_args": {
+        "max_length_input": 256,
+        "max_length_output": 256,
+        "eval_batch_size": 8,
+        "sample_size_for_metrics": 100,
+        "fp16_used": true
+    },
+    "validation": {
+        "perplexity": 1.1272341012954712,
+        "bleu": 0.811630012804847,
+        "rouge1": 0.8859258810000753,
+        "rouge2": 0.8252058247164784,
+        "rougeL": 0.8848932933937134
+    },
+    "test": {
+        "perplexity": 1.1271984577178955,
+        "bleu": 0.8126029982406477,
+        "rouge1": 0.8850702656247157,
+        "rouge2": 0.8266806593024755,
+        "rougeL": 0.8836998849585249
+    }
+}
