@@ -1,0 +1,31 @@
+{
+    "model_name": "t5-small",
+    "training_args": {
+        "epochs": 2,
+        "batch_size_per_device": 8,
+        "gradient_accumulation_steps": 1,
+        "effective_batch_size": 8,
+        "learning_rate": 3e-05,
+        "max_length_input": 256,
+        "max_length_output": 256,
+        "warmup_steps": 200,
+        "weight_decay": 0.01,
+        "fp16": true,
+        "steps_per_epoch": 7502,
+        "total_steps": 15004
+    },
+    "validation": {
+        "perplexity": 1.1272310018539429,
+        "bleu": 0,
+        "rouge1": 0,
+        "rouge2": 0,
+        "rougeL": 0
+    },
+    "test": {
+        "perplexity": 1.127195119857788,
+        "bleu": 0,
+        "rouge1": 0,
+        "rouge2": 0,
+        "rougeL": 0
+    }
+}
