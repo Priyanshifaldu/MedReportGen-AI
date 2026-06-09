@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+transformers
+torch
+pydantic
+pandas
+python-dotenv
+scikit-learn
+nltk
+rouge_score
