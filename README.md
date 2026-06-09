@@ -300,8 +300,4 @@ This project is intended for research and educational purposes only.
 
 Generated reports should always be reviewed and approved by qualified healthcare professionals before clinical use.
 
----
 
-## License
-
-MIT License
